@@ -26,7 +26,7 @@ public class ListActivity extends AppCompatActivity {
             return insets;
         });
 
-        MyDBHandler dbHandler = new MyDBHandler(this,null, null, 1);
+        DatabaseHandler dbHandler = new DatabaseHandler(this,null, null, 1);
 
         ArrayList<User> myUser_List = new ArrayList<>();
         myUser_List = dbHandler.getUsers();

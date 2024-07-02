@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        MyDBHandler dbHandler = new MyDBHandler(this,null, null, 1);
+        DatabaseHandler dbHandler = new DatabaseHandler(this,null, null, 1);
 
         // Get the TextViews and Button from the layout
         TextView tvName = findViewById(R.id.textView3);
